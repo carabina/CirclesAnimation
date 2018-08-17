@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
           #10.
           s.source_files       = "CirclesAnimation", "CirclesAnimation/**/*.{h,m,swift}"
 	  #11.
-          s.swift_version = '4.1'
+          s.swift_version = '4.2'
     end

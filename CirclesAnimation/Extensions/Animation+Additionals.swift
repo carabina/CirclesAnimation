@@ -42,7 +42,7 @@ extension CAAnimationGroup {
         animGroup.speed = speed!
         animGroup.repeatCount = repeatCount!
         animGroup.animations = [scale, opacity]
-        animGroup.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animGroup.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         animGroup.setValue(layer, forKey: "waveLayer")
         animGroup.isRemovedOnCompletion = isRemovedOnCompletion
         return animGroup
