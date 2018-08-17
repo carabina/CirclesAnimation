@@ -6,15 +6,20 @@ Pod::Spec.new do |s|
           #3.  
           s.summary            = " Various animations with circles. 'CirclesAnimation'"
           #4.
-          s.homepage           = "https://github.com/Kondzhariia/CirclesAnimation.git"
+	  s.description        = <<-DESC. If you need different animations with circles, you can use CirclesAnimation.
+   DESC      
           #5.
-          s.license            = "MIT"
+          s.homepage           = "https://github.com/Kondzhariia/CirclesAnimation.git"
           #6.
-          s.author             = "Data K"
+          s.license            = { :type => 'MIT', :file => 'LICENSE' }
           #7.
-          s.platform           = :ios, "10.0"
+          s.author             = { 'Kondzhariia' => 'data@eltexsoft.com' }
           #8.
-          s.source             = { :git => "https://github.com/Kondzhariia/CirclesAnimation.git", :tag => "1.0.0" }
+          s.platform           = :ios, "10.0"
           #9.
+          s.source             = { :git => 'https://github.com/Kondzhariia/CirclesAnimation.git', :tag => s.version.to_s }
+          #10.
           s.source_files       = "CirclesAnimation", "CirclesAnimation/**/*.{h,m,swift}"
+	  #11.
+          s.swift_version = '4.1'
     end
